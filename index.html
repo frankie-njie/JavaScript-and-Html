@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5 Logo</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body onload="init();">
+  <canvas id="canvas" width="600" height="400">
+    Your browser does not support the canvas element
+  </canvas>
+
+  <article class="">
+  <input id="slide" type="range" min="0" max="100" value="100"
+onChange="changescale(this.value)" step="10"/>
+  </article>
+  <article>Built on <a href=" http://daniemon.com/tech/html5/html5logo/">
+  workby Daniel Davis, et al</a>, but don'tblame them for the fonts.
+   Check out the use of <em>font-family</em> in the styleelement and the <em>fontfamily</em>
+   variable in the script element for safeways to do fonts.
+    I did the scaling. Note also use of semantic elements.
+  </article>
+<footer>
+  HTML5 Logo by <a ref="http://www.w3.org/">
+  <abbr title="World Wide Web Consortium"> W3C</abbr>
+</a>.
+</footer>
+
+  <script type="text/javascript" src="scripts/scripts.js"></script>
+  </body>
+</html>
